@@ -1,0 +1,117 @@
+name: FPL Fetch
+
+on:
+  schedule:
+    - cron: '0 1 * * *'   # Primary fetch at 1am UTC
+    - cron: '0 2 * * *'   # Retry if 1am blocked by live/unprocessed data
+    - cron: '0 3 * * *'   # Final retry if 2am still blocked
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (no files written)'
+        required: false
+        default: false
+        type: boolean
+      force_gw:
+        description: 'Force full fetch for a specific GW'
+        required: false
+        type: string
+      date:
+        description: 'Override target date YYYY-MM-DD (default: yesterday UTC)'
+        required: false
+        type: string
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    permissions:
+      contents: write   # Required to commit and push fetched data
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Determine current season
+        id: season
+        run: |
+          # FPL season starts in July. If Jul-Dec, season = current year.
+          # If Jan-Jun, season = previous year.
+          MONTH=$(date +%m)
+          YEAR=$(date +%Y)
+          if [ "$MONTH" -ge 7 ]; then
+            echo "season=$YEAR" >> $GITHUB_OUTPUT
+          else
+            echo "season=$((YEAR - 1))" >> $GITHUB_OUTPUT
+          fi
+
+      # ── Build fetch arguments ────────────────────────────────
+
+      - name: Build fetch arguments
+        id: fetch_args
+        run: |
+          ARGS="--season ${{ steps.season.outputs.season }} --output data/${{ steps.season.outputs.season }}"
+
+          if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+
+          if [ -n "${{ github.event.inputs.force_gw }}" ]; then
+            ARGS="$ARGS --force-gw ${{ github.event.inputs.force_gw }}"
+          fi
+
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            ARGS="$ARGS --date ${{ github.event.inputs.date }}"
+          fi
+
+          echo "args=$ARGS" >> $GITHUB_OUTPUT
+          echo "Fetch args: $ARGS"
+
+      # ── Run fetch ────────────────────────────────────────────
+
+      - name: Run fetch
+        id: fetch
+        run: python3 scripts/fetch.py ${{ steps.fetch_args.outputs.args }}
+
+      # ── Generate CSVs and latest/ (only when players were fetched) ──
+
+      - name: Generate CSVs
+        if: |
+          github.event.inputs.dry_run != 'true' &&
+          steps.fetch.outputs.fetch_type != 'none' &&
+          steps.fetch.outputs.fetch_type != 'waiting' &&
+          steps.fetch.outputs.fetch_type != 'blocked'
+        run: |
+          python3 scripts/generate_csv.py \
+            --season ${{ steps.season.outputs.season }}
+
+      - name: Generate latest/
+        if: |
+          github.event.inputs.dry_run != 'true' &&
+          steps.fetch.outputs.fetch_type != 'none' &&
+          steps.fetch.outputs.fetch_type != 'waiting' &&
+          steps.fetch.outputs.fetch_type != 'blocked'
+        run: |
+          python3 scripts/generate_latest.py \
+            --season ${{ steps.season.outputs.season }}
+
+      # ── Commit and push ──────────────────────────────────────
+
+      - name: Commit and push
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ latest/
+          git diff --cached --quiet && echo "Nothing to commit" || \
+            git commit -m "FPL data: ${{ steps.fetch.outputs.gw_label }}${{ steps.fetch.outputs.fetch_type }} $(date -u +%Y-%m-%d)"
+          git push
