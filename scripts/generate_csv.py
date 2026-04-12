@@ -180,11 +180,14 @@ def generate_gameweeks(bootstrap: dict, csv_dir: Path) -> None:
     print(f"  → gameweeks.csv ({count} rows)")
 
 
-def generate_fixtures(fixtures: list, csv_dir: Path) -> None:
+def generate_fixtures(fixtures: list, team_lookup: dict, csv_dir: Path) -> None:
     """Generate fixtures.csv from fixtures data."""
     fieldnames = [
         "fpl_id", "opta_id", "gameweek",
-        "team_h_fpl_id", "team_a_fpl_id",
+        "team_h_fpl_id", "team_h_opta_id",
+        "team_h_name", "team_h_short_name",
+        "team_a_fpl_id", "team_a_opta_id",
+        "team_a_name", "team_a_short_name",
         "team_h_score", "team_a_score",
         "kickoff_time", "finished", "started",
         "team_h_difficulty", "team_a_difficulty",
@@ -197,7 +200,13 @@ def generate_fixtures(fixtures: list, csv_dir: Path) -> None:
             "opta_id": fix.get("code"),
             "gameweek": fix.get("event"),
             "team_h_fpl_id": fix.get("team_h"),
+            "team_h_opta_id": team_lookup.get(fix.get("team_h"), {}).get("code"),
+            "team_h_name": team_lookup.get(fix.get("team_h"), {}).get("name"),
+            "team_h_short_name": team_lookup.get(fix.get("team_h"), {}).get("short_name"),
             "team_a_fpl_id": fix.get("team_a"),
+            "team_a_opta_id": team_lookup.get(fix.get("team_a"), {}).get("code"),
+            "team_a_name": team_lookup.get(fix.get("team_a"), {}).get("name"),
+            "team_a_short_name": team_lookup.get(fix.get("team_a"), {}).get("short_name"),
             "team_h_score": fix.get("team_h_score"),
             "team_a_score": fix.get("team_a_score"),
             "kickoff_time": fix.get("kickoff_time"),
@@ -398,7 +407,7 @@ def run(args):
     if not isinstance(fixtures, list):
         print("  SKIP: fixtures.csv (fixtures data not found or invalid)")
     else:
-        generate_fixtures(fixtures, csv_dir)
+        generate_fixtures(fixtures, team_lookup, csv_dir)
 
     gameweeks_dir = output / "gameweeks"
 

@@ -335,6 +335,8 @@ def fetch_player(el: dict, players_dir: Path, session: requests.Session, delay: 
 
     try:
         data = fetch_json(f"{FPL_BASE}/element-summary/{fpl_id}/", session)
+        for old_file in players_dir.glob(f"{fpl_id}_*.json"):
+            old_file.unlink()
         with open(filepath, "w") as f:
             json.dump(strip_opta_fields(data), f, indent=2)
         time.sleep(delay)
