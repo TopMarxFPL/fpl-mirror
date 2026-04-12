@@ -1,0 +1,10 @@
+{
+  "season": 2025,
+  "current_gw": 32,
+  "fetch_type": "active_gw",
+  "expected_count": 406,
+  "fetched_count": 406,
+  "failed_ids": [],
+  "completed": true,
+  "last_run": "2026-04-12T02:17:26.502157+00:00"
+}
