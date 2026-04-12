@@ -1,0 +1,353 @@
+type,gw,position,fpl_id,opta_id,name,player_position,points,is_top_player
+gw,1,1,1,154561,David Raya Martín,GK,10,False
+gw,1,2,531,223827,Daniel Ballard,DEF,17,True
+gw,1,3,7,466075,Riccardo Calafiori,DEF,13,False
+gw,1,4,410,477064,Rico Lewis,DEF,11,False
+gw,1,5,82,437730,Antoine Semenyo,MID,15,False
+gw,1,6,582,460842,Mohammed Kudus,MID,10,False
+gw,1,7,427,433036,Tijjani Reijnders,MID,10,False
+gw,1,8,164,219249,Matt O'Riley,MID,10,False
+gw,1,9,597,212319,Richarlison,FWD,13,False
+gw,1,10,525,60689,Chris Wood,FWD,13,False
+gw,1,11,430,223094,Erling Haaland,FWD,13,False
+gw,10,1,314,80201,Bernd Leno,GK,7,False
+gw,10,2,5,226597,Gabriel Magalhães,DEF,12,False
+gw,10,3,260,209036,Marc Guéhi,DEF,10,False
+gw,10,4,372,122798,Andrew Robertson,DEF,8,False
+gw,10,5,169,514254,Diego Gómez Amarilla,MID,16,True
+gw,10,6,328,184349,Ryan Sessegnon,MID,14,False
+gw,10,7,21,204480,Declan Rice,MID,13,False
+gw,10,8,457,61256,Casemiro,MID,12,False
+gw,10,9,390,441266,Ryan Gravenberch,MID,11,False
+gw,10,10,430,223094,Erling Haaland,FWD,13,False
+gw,10,11,249,475168,João Pedro,FWD,9,False
+gw,11,1,32,98980,Emiliano Martínez Romero,GK,14,False
+gw,11,2,228,482609,Malo Gusto,DEF,15,False
+gw,11,3,295,106611,Michael Keane,DEF,15,True
+gw,11,4,407,465351,Matheus Nunes,DEF,13,False
+gw,11,5,258,244723,Tyrick Mitchell,DEF,11,False
+gw,11,6,16,223340,Bukayo Saka,MID,12,False
+gw,11,7,613,215439,Tomáš Souček,MID,12,False
+gw,11,8,50,195546,Emiliano Buendía Stati,MID,11,False
+gw,11,9,418,248875,Jérémy Doku,MID,11,False
+gw,11,10,453,493105,Alejandro Garnacho Ferreyra,MID,11,False
+gw,11,11,136,502500,Igor Thiago,FWD,13,False
+gw,12,1,287,111234,Jordan Pickford,GK,10,False
+gw,12,2,506,575476,Murillo,DEF,17,False
+gw,12,3,256,247348,Daniel Muñoz Mejía,DEF,14,False
+gw,12,4,508,215136,Neco Williams,DEF,13,False
+gw,12,5,716,500151,Nicolò Savona,DEF,12,False
+gw,12,6,266,232413,Eberechi Eze,MID,20,True
+gw,12,7,47,244850,Morgan Rogers,MID,15,False
+gw,12,8,487,201666,Harvey Barnes,MID,15,False
+gw,12,9,242,215413,Kiernan Dewsbury-Hall,MID,13,False
+gw,12,10,20,116216,Leandro Trossard,MID,12,False
+gw,12,11,671,75115,Callum Wilson,FWD,12,False
+gw,13,1,139,489639,Bart Verbruggen,GK,7,False
+gw,13,2,684,465642,Malick Thiaw,DEF,16,True
+gw,13,3,145,465730,Maxim De Cuyper,DEF,15,False
+gw,13,4,322,167074,Kenny Tete,DEF,12,False
+gw,13,5,376,171287,Joe Gomez,DEF,11,False
+gw,13,6,497,547719,Lewis Miley,MID,15,False
+gw,13,7,414,209244,Phil Foden,MID,15,False
+gw,13,8,384,243298,Cody Gakpo,MID,14,False
+gw,13,9,547,484420,Enzo Le Fée,MID,13,False
+gw,13,10,83,533463,Dango Ouattara,MID,12,False
+gw,13,11,136,502500,Igor Thiago,FWD,13,False
+gw,14,1,253,172649,Dean Henderson,GK,7,False
+gw,14,2,569,221632,Cristian Romero,DEF,17,True
+gw,14,3,440,216051,Diogo Dalot,DEF,15,False
+gw,14,4,260,209036,Marc Guéhi,DEF,14,False
+gw,14,5,11,198869,Benjamin White,DEF,14,False
+gw,14,6,256,247348,Daniel Muñoz Mejía,DEF,14,False
+gw,14,7,414,209244,Phil Foden,MID,17,False
+gw,14,8,22,195384,Mikel Merino Zazón,MID,13,False
+gw,14,9,727,218328,Samuel Chukwueze,MID,12,False
+gw,14,10,430,223094,Erling Haaland,FWD,14,False
+gw,14,11,64,178301,Ollie Watkins,FWD,13,False
+gw,15,1,220,215059,Robert Lynch Sánchez,GK,10,False
+gw,15,2,408,171314,Rúben Dias,DEF,14,False
+gw,15,3,403,477424,Joško Gvardiol,DEF,12,False
+gw,15,4,226,180736,Trevoh Chalobah,DEF,11,False
+gw,15,5,449,141746,Bruno Fernandes,MID,18,True
+gw,15,6,242,215413,Kiernan Dewsbury-Hall,MID,16,False
+gw,15,7,717,493362,Xavi Simons,MID,14,False
+gw,15,8,417,466052,Rayan Cherki,MID,12,False
+gw,15,9,660,466525,Anton Stach,MID,12,False
+gw,15,10,661,510663,Hugo Ekitiké,FWD,13,False
+gw,15,11,624,178186,Jarrod Bowen,FWD,9,False
+gw,16,1,670,498016,Robin Roefs,GK,9,False
+gw,16,2,228,482609,Malo Gusto,DEF,18,False
+gw,16,3,407,465351,Matheus Nunes,DEF,11,False
+gw,16,4,541,434399,Reinildo Mandava,DEF,10,False
+gw,16,5,516,209046,Callum Hudson-Odoi,MID,19,True
+gw,16,6,521,210462,Ibrahim Sangaré,MID,18,False
+gw,16,7,329,153682,Harry Wilson,MID,16,False
+gw,16,8,47,244850,Morgan Rogers,MID,15,False
+gw,16,9,449,141746,Bruno Fernandes,MID,13,False
+gw,16,10,661,510663,Hugo Ekitiké,FWD,13,False
+gw,16,11,430,223094,Erling Haaland,FWD,13,False
+gw,17,1,101,200720,Caoimhín Kelleher,GK,13,False
+gw,17,2,107,249231,Keane Lewis-Potter,DEF,21,True
+gw,17,3,532,487676,Trai Hume,DEF,10,False
+gw,17,4,725,448104,Piero Hincapié,DEF,10,False
+gw,17,5,47,244850,Morgan Rogers,MID,15,False
+gw,17,6,354,199598,Ethan Ampadu,MID,12,False
+gw,17,7,21,204480,Declan Rice,MID,11,False
+gw,17,8,485,232826,Anthony Gordon,MID,10,False
+gw,17,9,430,223094,Erling Haaland,FWD,16,False
+gw,17,10,691,177815,Dominic Calvert-Lewin,FWD,13,False
+gw,17,11,714,470313,Nick Woltemade,FWD,13,False
+gw,18,1,470,67089,Martin Dúbravka,GK,11,False
+gw,18,2,441,596777,Patrick Dorgu,DEF,17,False
+gw,18,3,440,216051,Diogo Dalot,DEF,13,False
+gw,18,4,575,491279,Micky van de Ven,DEF,11,False
+gw,18,5,295,106611,Michael Keane,DEF,10,False
+gw,18,6,120,513418,Kevin Schade,MID,20,True
+gw,18,7,417,466052,Rayan Cherki,MID,13,False
+gw,18,8,390,441266,Ryan Gravenberch,MID,11,False
+gw,18,9,382,494595,Florian Wirtz,MID,10,False
+gw,18,10,17,184029,Martin Ødegaard,MID,10,False
+gw,18,11,64,178301,Ollie Watkins,FWD,12,False
+gw,19,1,287,111234,Jordan Pickford,GK,10,False
+gw,19,2,5,226597,Gabriel Magalhães,DEF,15,False
+gw,19,3,694,200834,Nordi Mukiele,DEF,11,False
+gw,19,4,407,465351,Matheus Nunes,DEF,11,False
+gw,19,5,568,441164,Pedro Porro Sauceda,DEF,10,False
+gw,19,6,303,232928,James Garner,MID,16,True
+gw,19,7,20,116216,Leandro Trossard,MID,13,False
+gw,19,8,612,224024,Lucas Tolentino Coelho de Lima,MID,13,False
+gw,19,9,488,208706,Bruno Guimarães,MID,10,False
+gw,19,10,86,111317,David Brooks,MID,10,False
+gw,19,11,283,231747,Jean-Philippe Mateta,FWD,9,False
+gw,2,1,287,111234,Jordan Pickford,GK,15,False
+gw,2,2,8,445122,Jurriën Timber,DEF,24,True
+gw,2,3,7,466075,Riccardo Calafiori,DEF,13,False
+gw,2,4,685,242882,Bafodé Diakité,DEF,10,False
+gw,2,5,205,172567,Josh Cullen,MID,14,False
+gw,2,6,200,444180,Jaidon Anthony,MID,13,False
+gw,2,7,83,533463,Dango Ouattara,MID,13,False
+gw,2,8,419,114283,Jack Grealish,MID,11,False
+gw,2,9,84,201658,Marcus Tavernier,MID,11,False
+gw,2,10,249,475168,João Pedro,FWD,15,False
+gw,2,11,666,224117,Viktor Gyökeres,FWD,12,False
+gw,20,1,139,489639,Bart Verbruggen,GK,7,False
+gw,20,2,684,465642,Malick Thiaw,DEF,17,True
+gw,20,3,633,490721,Hugo Bueno,DEF,11,False
+gw,20,4,106,432830,Nathan Collins,DEF,10,False
+gw,20,5,21,204480,Declan Rice,MID,17,False
+gw,20,6,54,122806,John McGinn,MID,15,False
+gw,20,7,166,509416,Yasin Ayari,MID,12,False
+gw,20,8,125,204580,Vitaly Janelt,MID,11,False
+gw,20,9,237,448047,Enzo Fernández,MID,11,False
+gw,20,10,136,502500,Igor Thiago,FWD,17,False
+gw,20,11,749,647671,Mateus Mané,FWD,12,False
+gw,21,1,101,200720,Caoimhín Kelleher,GK,13,False
+gw,21,2,106,432830,Nathan Collins,DEF,13,False
+gw,21,3,723,651426,Jaydee Canvot,DEF,10,False
+gw,21,4,37,101188,Lucas Digne,DEF,9,False
+gw,21,5,487,201666,Harvey Barnes,MID,15,True
+gw,21,6,350,427637,Brenden Aaronson,MID,14,False
+gw,21,7,488,208706,Bruno Guimarães,MID,11,False
+gw,21,8,330,207189,Sander Berge,MID,10,False
+gw,21,9,584,511499,Mathys Tel,MID,10,False
+gw,21,10,681,485711,Benjamin Sesko,FWD,13,False
+gw,21,11,136,502500,Igor Thiago,FWD,12,False
+gw,22,1,220,215059,Robert Lynch Sánchez,GK,11,False
+gw,22,2,441,596777,Patrick Dorgu,DEF,15,True
+gw,22,3,706,220627,James Justin,DEF,9,False
+gw,22,4,684,465642,Malick Thiaw,DEF,9,False
+gw,22,5,473,487838,Lewis Hall,DEF,9,False
+gw,22,6,449,141746,Bruno Fernandes,MID,10,False
+gw,22,7,382,494595,Florian Wirtz,MID,10,False
+gw,22,8,615,450070,Crysencio Summerville,MID,10,False
+gw,22,9,712,488024,Yéremy Pino Santos,MID,9,False
+gw,22,10,708,551226,Mateus Fernandes,MID,9,False
+gw,22,11,730,441264,Brian Brobbey,FWD,9,False
+gw,23,1,32,98980,Emiliano Martínez Romero,GK,10,False
+gw,23,2,407,465351,Matheus Nunes,DEF,11,False
+gw,23,3,507,159506,Ola Aina,DEF,11,False
+gw,23,4,569,221632,Cristian Romero,DEF,11,False
+gw,23,5,387,424876,Dominik Szoboszlai,MID,13,False
+gw,23,6,238,624773,Estêvão,MID,13,True
+gw,23,7,166,509416,Yasin Ayari,MID,11,False
+gw,23,8,50,195546,Emiliano Buendía Stati,MID,11,False
+gw,23,9,329,153682,Harry Wilson,MID,10,False
+gw,23,10,249,475168,João Pedro,FWD,12,False
+gw,23,11,624,178186,Jarrod Bowen,FWD,12,False
+gw,24,1,101,200720,Caoimhín Kelleher,GK,10,False
+gw,24,2,541,434399,Reinildo Mandava,DEF,11,False
+gw,24,3,374,204716,Ibrahima Konaté,DEF,11,False
+gw,24,4,531,223827,Daniel Ballard,DEF,9,False
+gw,24,5,18,248857,Noni Madueke,MID,14,False
+gw,24,6,544,547027,Habib Diarra,MID,14,True
+gw,24,7,457,61256,Casemiro,MID,13,False
+gw,24,8,90,503139,Alex Scott,MID,13,False
+gw,24,9,382,494595,Florian Wirtz,MID,12,False
+gw,24,10,661,510663,Hugo Ekitiké,FWD,13,False
+gw,24,11,596,154566,Dominic Solanke-Mitchell,FWD,12,False
+gw,25,1,679,467189,Mads Hermansen,GK,10,False
+gw,25,2,440,216051,Diogo Dalot,DEF,12,False
+gw,25,3,257,437499,Maxence Lacroix,DEF,11,False
+gw,25,4,603,613804,El Hadji Malick Diouf,DEF,9,False
+gw,25,5,235,244851,Cole Palmer,MID,20,True
+gw,25,6,242,215413,Kiernan Dewsbury-Hall,MID,13,False
+gw,25,7,83,533463,Dango Ouattara,MID,12,False
+gw,25,8,356,486520,Ilia Gruev,MID,11,False
+gw,25,9,488,208706,Bruno Guimarães,MID,11,False
+gw,25,10,666,224117,Viktor Gyökeres,FWD,12,False
+gw,25,11,430,223094,Erling Haaland,FWD,11,False
+gw,26,1,628,149065,José Sá,GK,13,False
+gw,26,2,373,97032,Virgil van Dijk,DEF,17,True
+gw,26,3,725,448104,Piero Hincapié,DEF,15,False
+gw,26,4,411,472769,Nico O'Reilly,DEF,13,False
+gw,26,5,40,149484,Tyrone Mings,DEF,12,False
+gw,26,6,21,204480,Declan Rice,MID,14,False
+gw,26,7,82,437730,Antoine Semenyo,MID,14,False
+gw,26,8,16,223340,Bukayo Saka,MID,13,False
+gw,26,9,18,248857,Noni Madueke,MID,13,False
+gw,26,10,235,244851,Cole Palmer,MID,12,False
+gw,26,11,654,247412,Jørgen Strand Larsen,FWD,13,False
+gw,27,1,253,172649,Dean Henderson,GK,16,False
+gw,27,2,411,472769,Nico O'Reilly,DEF,17,True
+gw,27,3,258,244723,Tyrick Mitchell,DEF,11,False
+gw,27,4,373,97032,Virgil van Dijk,DEF,11,False
+gw,27,5,266,232413,Eberechi Eze,MID,14,False
+gw,27,6,324,153133,Alex Iwobi,MID,13,False
+gw,27,7,386,243016,Alexis Mac Allister,MID,13,False
+gw,27,8,660,466525,Anton Stach,MID,11,False
+gw,27,9,169,514254,Diego Gómez Amarilla,MID,10,False
+gw,27,10,666,224117,Viktor Gyökeres,FWD,13,False
+gw,27,11,337,102057,Raúl Jiménez Rodríguez,FWD,11,False
+gw,28,1,628,149065,José Sá,GK,8,False
+gw,28,2,402,448514,Rayan Aït-Nouri,DEF,11,False
+gw,28,3,6,462424,William Saliba,DEF,10,False
+gw,28,4,634,501837,Yerson Mosquera Valdelamar,DEF,9,False
+gw,28,5,121,440089,Mikkel Damsgaard,MID,18,True
+gw,28,6,646,448089,João Gomes,MID,14,False
+gw,28,7,449,141746,Bruno Fernandes,MID,13,False
+gw,28,8,329,153682,Harry Wilson,MID,12,False
+gw,28,9,324,153133,Alex Iwobi,MID,10,False
+gw,28,10,661,510663,Hugo Ekitiké,FWD,15,False
+gw,28,11,311,486385,Beto,FWD,9,False
+gw,29,1,812,515046,Melker Ellborg,GK,10,False
+gw,29,2,291,17761,James Tarkowski,DEF,15,False
+gw,29,3,8,445122,Jurriën Timber,DEF,13,False
+gw,29,4,5,226597,Gabriel Magalhães,DEF,11,False
+gw,29,5,72,221466,Marcos Senesi Barón,DEF,11,False
+gw,29,6,267,232185,Ismaïla Sarr,MID,15,False
+gw,29,7,643,509291,André,MID,12,False
+gw,29,8,517,215379,Elliot Anderson,MID,12,False
+gw,29,9,615,450070,Crysencio Summerville,MID,11,False
+gw,29,10,273,496221,Adam Wharton,MID,10,False
+gw,29,11,249,475168,João Pedro,FWD,19,True
+gw,3,1,366,116535,Alisson Becker,GK,8,False
+gw,3,2,260,209036,Marc Guéhi,DEF,15,True
+gw,3,3,72,221466,Marcos Senesi Barón,DEF,14,False
+gw,3,4,226,180736,Trevoh Chalobah,DEF,13,False
+gw,3,5,257,437499,Maxence Lacroix,DEF,11,False
+gw,3,6,387,424876,Dominik Szoboszlai,MID,13,False
+gw,3,7,242,215413,Kiernan Dewsbury-Hall,MID,12,False
+gw,3,8,237,448047,Enzo Fernández,MID,12,False
+gw,3,9,547,484420,Enzo Le Fée,MID,11,False
+gw,3,10,419,114283,Jack Grealish,MID,10,False
+gw,3,11,249,475168,João Pedro,FWD,9,False
+gw,30,1,139,489639,Bart Verbruggen,GK,7,False
+gw,30,2,606,233963,Konstantinos Mavropanos,DEF,12,True
+gw,30,3,146,83299,Lewis Dunk,DEF,11,False
+gw,30,4,6,462424,William Saliba,DEF,11,False
+gw,30,5,723,651426,Jaydee Canvot,DEF,11,False
+gw,30,6,74,494521,Adrien Truffert,DEF,11,False
+gw,30,7,55,88894,Ross Barkley,MID,12,False
+gw,30,8,485,232826,Anthony Gordon,MID,11,False
+gw,30,9,387,424876,Dominik Szoboszlai,MID,11,False
+gw,30,10,449,141746,Bruno Fernandes,MID,10,False
+gw,30,11,597,212319,Richarlison,FWD,9,False
+gw,31,1,101,200720,Caoimhín Kelleher,GK,9,False
+gw,31,2,508,215136,Neco Williams,DEF,15,False
+gw,31,3,344,434752,Jaka Bijol,DEF,11,False
+gw,31,4,111,231065,Ethan Pinnock,DEF,10,False
+gw,31,5,335,577725,Josh King,MID,13,False
+gw,31,6,449,141746,Bruno Fernandes,MID,13,False
+gw,31,7,54,122806,John McGinn,MID,10,False
+gw,31,8,299,440993,Iliman Ndiaye,MID,10,False
+gw,31,9,485,232826,Anthony Gordon,MID,10,False
+gw,31,10,311,486385,Beto,FWD,16,True
+gw,31,11,178,50175,Danny Welbeck,FWD,12,False
+gw,4,1,670,498016,Robin Roefs,GK,10,False
+gw,4,2,575,491279,Micky van de Ven,DEF,14,False
+gw,4,3,569,221632,Cristian Romero,DEF,12,False
+gw,4,4,694,200834,Nordi Mukiele,DEF,10,False
+gw,4,5,317,174874,Joachim Andersen,DEF,10,False
+gw,4,6,26,481655,Martín Zubimendi Ibáñez,MID,16,True
+gw,4,7,82,437730,Antoine Semenyo,MID,13,False
+gw,4,8,241,486672,Moisés Caicedo Corozo,MID,12,False
+gw,4,9,414,209244,Phil Foden,MID,12,False
+gw,4,10,586,570526,Lucas Bergvall,MID,11,False
+gw,4,11,430,223094,Erling Haaland,FWD,13,False
+gw,5,1,469,98747,Nick Pope,GK,6,False
+gw,5,2,442,95658,Harry Maguire,DEF,11,False
+gw,5,3,36,199796,Matty Cash,DEF,10,False
+gw,5,4,508,215136,Neco Williams,DEF,10,False
+gw,5,5,660,466525,Anton Stach,MID,15,True
+gw,5,6,390,441266,Ryan Gravenberch,MID,15,False
+gw,5,7,324,153133,Alex Iwobi,MID,13,False
+gw,5,8,200,444180,Jaidon Anthony,MID,10,False
+gw,5,9,449,141746,Bruno Fernandes,MID,10,False
+gw,5,10,691,177815,Dominic Calvert-Lewin,FWD,11,False
+gw,5,11,560,437505,Wilson Isidor,FWD,9,False
+gw,6,1,670,498016,Robin Roefs,GK,10,False
+gw,6,2,683,201895,Omar Alderete,DEF,17,True
+gw,6,3,5,226597,Gabriel Magalhães,DEF,13,False
+gw,6,4,407,465351,Matheus Nunes,DEF,12,False
+gw,6,5,636,231480,Santiago Bueno,DEF,12,False
+gw,6,6,493,180135,Sean Longstaff,MID,15,False
+gw,6,7,50,195546,Emiliano Buendía Stati,MID,12,False
+gw,6,8,267,232185,Ismaïla Sarr,MID,11,False
+gw,6,9,430,223094,Erling Haaland,FWD,16,False
+gw,6,10,136,502500,Igor Thiago,FWD,13,False
+gw,6,11,178,50175,Danny Welbeck,FWD,11,False
+gw,7,1,733,465247,Senne Lammens,GK,9,False
+gw,7,2,403,477424,Joško Gvardiol,DEF,12,False
+gw,7,3,8,445122,Jurriën Timber,DEF,11,False
+gw,7,4,476,78916,Dan Burn,DEF,11,False
+gw,7,5,151,469142,Jan Paul van Hecke,DEF,11,False
+gw,7,6,82,437730,Antoine Semenyo,MID,18,True
+gw,7,7,53,204646,Donyell Malen,MID,15,False
+gw,7,8,488,208706,Bruno Guimarães,MID,14,False
+gw,7,9,582,460842,Mohammed Kudus,MID,12,False
+gw,7,10,21,204480,Declan Rice,MID,11,False
+gw,7,11,681,485711,Benjamin Sesko,FWD,9,False
+gw,8,1,470,67089,Martin Dúbravka,GK,9,False
+gw,8,2,225,225796,Reece James,DEF,18,True
+gw,8,3,694,200834,Nordi Mukiele,DEF,17,False
+gw,8,4,233,577016,Josh Acheampong,DEF,14,False
+gw,8,5,187,58621,Kyle Walker,DEF,14,False
+gw,8,6,5,226597,Gabriel Magalhães,DEF,12,False
+gw,8,7,236,247632,Pedro Neto,MID,12,False
+gw,8,8,585,202993,Rodrigo Bentancur,MID,12,False
+gw,8,9,283,231747,Jean-Philippe Mateta,FWD,17,False
+gw,8,10,178,50175,Danny Welbeck,FWD,13,False
+gw,8,11,430,223094,Erling Haaland,FWD,13,False
+gw,9,1,32,98980,Emiliano Martínez Romero,GK,8,False
+gw,9,2,575,491279,Micky van de Ven,DEF,23,True
+gw,9,3,36,199796,Matty Cash,DEF,15,False
+gw,9,4,348,214225,Joe Rodon,DEF,13,False
+gw,9,5,568,441164,Pedro Porro Sauceda,DEF,11,False
+gw,9,6,119,446008,Bryan Mbeumo,MID,15,False
+gw,9,7,457,61256,Casemiro,MID,15,False
+gw,9,8,350,427637,Brenden Aaronson,MID,11,False
+gw,9,9,84,201658,Marcus Tavernier,MID,11,False
+gw,9,10,266,232413,Eberechi Eze,MID,11,False
+gw,9,11,215,431639,Zian Flemming,FWD,13,False
+season,,1,1,154561,David Raya Martín,GK,130,False
+season,,2,5,226597,Gabriel Magalhães,DEF,177,False
+season,,3,8,445122,Jurriën Timber,DEF,149,False
+season,,4,291,17761,James Tarkowski,DEF,145,False
+season,,5,449,141746,Bruno Fernandes,MID,189,False
+season,,6,82,437730,Antoine Semenyo,MID,174,False
+season,,7,21,204480,Declan Rice,MID,166,False
+season,,8,329,153682,Harry Wilson,MID,154,False
+season,,9,430,223094,Erling Haaland,FWD,197,True
+season,,10,136,502500,Igor Thiago,FWD,166,False
+season,,11,249,475168,João Pedro,FWD,164,False

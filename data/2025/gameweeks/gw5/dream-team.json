@@ -1,0 +1,63 @@
+{
+  "top_player": {
+    "id": 660,
+    "points": 15
+  },
+  "team": [
+    {
+      "element": 469,
+      "points": 6,
+      "position": 1
+    },
+    {
+      "element": 442,
+      "points": 11,
+      "position": 2
+    },
+    {
+      "element": 36,
+      "points": 10,
+      "position": 3
+    },
+    {
+      "element": 508,
+      "points": 10,
+      "position": 4
+    },
+    {
+      "element": 660,
+      "points": 15,
+      "position": 5
+    },
+    {
+      "element": 390,
+      "points": 15,
+      "position": 6
+    },
+    {
+      "element": 324,
+      "points": 13,
+      "position": 7
+    },
+    {
+      "element": 200,
+      "points": 10,
+      "position": 8
+    },
+    {
+      "element": 449,
+      "points": 10,
+      "position": 9
+    },
+    {
+      "element": 691,
+      "points": 11,
+      "position": 10
+    },
+    {
+      "element": 560,
+      "points": 9,
+      "position": 11
+    }
+  ]
+}
