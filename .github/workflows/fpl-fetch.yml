@@ -115,3 +115,7 @@ jobs:
           git diff --cached --quiet && echo "Nothing to commit" || \
             git commit -m "FPL data: ${{ steps.fetch.outputs.gw_label }}${{ steps.fetch.outputs.fetch_type }} $(date -u +%Y-%m-%d)"
           git push
+
+      - name: Ping Gabe (heartbeat)
+        if: success()
+        run: curl -fsS --retry 3 ${{ secrets.GABE_PING_URL }}
