@@ -1,22 +1,6 @@
 {
   "fixtures": [
     {
-      "id": 319,
-      "code": 2562213,
-      "team_h": 17,
-      "team_h_score": null,
-      "team_a": 18,
-      "team_a_score": null,
-      "event": 32,
-      "finished": false,
-      "minutes": 0,
-      "provisional_start_time": false,
-      "kickoff_time": "2026-04-12T13:00:00Z",
-      "event_name": "Gameweek 32",
-      "is_home": true,
-      "difficulty": 2
-    },
-    {
       "id": 321,
       "code": 2562215,
       "team_h": 2,
@@ -472,8 +456,8 @@
       "total_points": 0,
       "was_home": true,
       "kickoff_time": "2026-04-12T13:00:00Z",
-      "team_h_score": null,
-      "team_a_score": null,
+      "team_h_score": 1,
+      "team_a_score": 0,
       "round": 32,
       "modified": false,
       "minutes": 0,

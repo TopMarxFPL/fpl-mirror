@@ -314,10 +314,10 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 312,2562206,32,5,94,Brentford,BRE,9,11,Everton,EVE,2,2,2026-04-11T14:00:00Z,True,True,3,3
 313,2562207,32,3,90,Burnley,BUR,6,36,Brighton,BHA,0,2,2026-04-11T14:00:00Z,True,True,3,2
 316,2562210,32,12,14,Liverpool,LIV,10,54,Fulham,FUL,2,0,2026-04-11T16:30:00Z,True,True,3,4
-315,2562209,32,8,31,Crystal Palace,CRY,15,4,Newcastle,NEW,,,2026-04-12T13:00:00Z,False,False,3,3
-318,2562212,32,16,17,Nott'm Forest,NFO,2,7,Aston Villa,AVL,,,2026-04-12T13:00:00Z,False,False,3,3
-319,2562213,32,17,56,Sunderland,SUN,18,6,Spurs,TOT,,,2026-04-12T13:00:00Z,False,False,2,3
-314,2562208,32,7,8,Chelsea,CHE,13,43,Man City,MCI,,,2026-04-12T15:30:00Z,False,False,4,3
+315,2562209,32,8,31,Crystal Palace,CRY,15,4,Newcastle,NEW,2,1,2026-04-12T13:00:00Z,True,True,3,3
+318,2562212,32,16,17,Nott'm Forest,NFO,2,7,Aston Villa,AVL,1,1,2026-04-12T13:00:00Z,True,True,3,3
+319,2562213,32,17,56,Sunderland,SUN,18,6,Spurs,TOT,1,0,2026-04-12T13:00:00Z,True,True,2,3
+314,2562208,32,7,8,Chelsea,CHE,13,43,Man City,MCI,0,3,2026-04-12T15:30:00Z,True,True,4,3
 317,2562211,32,14,1,Man Utd,MUN,11,2,Leeds,LEE,,,2026-04-13T19:00:00Z,False,False,2,4
 322,2562216,33,5,94,Brentford,BRE,10,54,Fulham,FUL,,,2026-04-18T11:30:00Z,False,False,3,3
 326,2562220,33,11,2,Leeds,LEE,20,39,Wolves,WOL,,,2026-04-18T14:00:00Z,False,False,2,3
