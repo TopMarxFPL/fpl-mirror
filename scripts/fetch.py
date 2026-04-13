@@ -550,6 +550,15 @@ def run(args):
     fetch_type = "none"
     team_fpl_ids: set[int] | None = None  # None = fetch all players
 
+    if not args.force and manifest.get("last_run"):
+        last_run = datetime.fromisoformat(manifest["last_run"])
+        last_fetch_type = manifest.get("fetch_type")
+        if (last_run.date() == datetime.now(timezone.utc).date()
+                and last_fetch_type not in ("blocked", "waiting", "none")):
+            print(f"  Already fetched today ({last_fetch_type} at {last_run.strftime('%H:%M')} UTC) — skipping")
+            set_github_outputs("", "none")
+            return
+
     if args.force_gw:
         print(f"  --force-gw {args.force_gw}: forcing full player fetch")
         fetch_type = "forced"
