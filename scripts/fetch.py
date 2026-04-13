@@ -33,7 +33,7 @@ GitHub Actions runs to persist state across VM instances.
 Usage:
   python3 fetch.py --season 2025 --output data/2025
   python3 fetch.py --season 2025 --output data/2025 --date 2026-04-10
-  python3 fetch.py --season 2025 --output data/2025 --force-gw 32
+  python3 fetch.py --season 2025 --output data/2025 --force
   python3 fetch.py --season 2025 --output data/2025 --dry-run
 """
 
@@ -559,8 +559,8 @@ def run(args):
             set_github_outputs("", "none")
             return
 
-    if args.force_gw:
-        print(f"  --force-gw {args.force_gw}: forcing full player fetch")
+    if args.force:
+        print(f"  --force forcing full player fetch")
         fetch_type = "forced"
 
     elif not gw_finished:
@@ -605,7 +605,7 @@ def run(args):
     # ── Check event-status before fetching players ────────────
     print("\n[5/5] Fetching player data...")
 
-    if not args.force_gw:
+    if not args.force:
         print("  Checking event-status...")
         ok, reason = check_event_status(session, target_date)
         if not ok:
@@ -634,13 +634,12 @@ def run(args):
     gameweeks_dir = output / "gameweeks"
 
     if fetch_type == "forced":
-        finished_gws = [
-            ev["id"] for ev in bootstrap.get("events", [])
-            if ev.get("finished") and ev["id"] <= args.force_gw
-        ]
-        print(f"\n  Fetching GW extras for {len(finished_gws)} finished GW(s)...")
-        for gw in finished_gws:
-            fetch_gw_extras(gw, gameweeks_dir, session, args.dry_run)
+        target_gw = gw_number if (gw_finished and gw_data_checked) else gw_number - 1
+        if target_gw >= 1:
+            print(f"\n  Fetching GW extras for GW{target_gw}...")
+            fetch_gw_extras(target_gw, gameweeks_dir, session, args.dry_run)
+        else:
+            print("\n  No completed GW to fetch extras for — skipping")
 
     elif fetch_type == "gw_closure":
         print(f"\n  Fetching GW extras for GW{gw_number}...")
@@ -699,8 +698,8 @@ def main():
                         help=f"Seconds between API requests (default {DEFAULT_DELAY})")
     parser.add_argument("--date",
                         help="Override target date YYYY-MM-DD (default: yesterday UTC)")
-    parser.add_argument("--force-gw", type=int,
-                        help="Force a full player fetch regardless of GW state")
+    parser.add_argument("--force", action="store_true",
+                        help="Force a full player fetch")
     parser.add_argument("--dry-run", action="store_true",
                         help="Preview only — no files written, no player API calls")
     args = parser.parse_args()
