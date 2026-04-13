@@ -12,10 +12,11 @@ on:
         required: false
         default: false
         type: boolean
-      force_gw:
-        description: 'Force full fetch for a specific GW'
+      force:
+        description: 'Force full fetch'
         required: false
-        type: string
+        default: false
+        type: boolean
       date:
         description: 'Override target date YYYY-MM-DD (default: yesterday UTC)'
         required: false
@@ -65,8 +66,8 @@ jobs:
             ARGS="$ARGS --dry-run"
           fi
 
-          if [ -n "${{ github.event.inputs.force_gw }}" ]; then
-            ARGS="$ARGS --force-gw ${{ github.event.inputs.force_gw }}"
+          if [ "${{ github.event.inputs.force }}" == "true" ]; then
+            ARGS="$ARGS --force"
           fi
 
           if [ -n "${{ github.event.inputs.date }}" ]; then
