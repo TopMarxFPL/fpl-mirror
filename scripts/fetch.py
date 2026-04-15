@@ -636,8 +636,13 @@ def run(args):
     if fetch_type == "forced":
         target_gw = gw_number if (gw_finished and gw_data_checked) else gw_number - 1
         if target_gw >= 1:
-            print(f"\n  Fetching GW extras for GW{target_gw}...")
-            fetch_gw_extras(target_gw, gameweeks_dir, session, args.dry_run)
+            finished_gws = [
+                ev["id"] for ev in bootstrap.get("events", [])
+                if ev.get("finished") and ev["id"] <= target_gw
+            ]
+            print(f"\n  Fetching GW extras for {len(finished_gws)} finished GW(s)...")
+            for gw in finished_gws:
+                fetch_gw_extras(gw, gameweeks_dir, session, args.dry_run)
         else:
             print("\n  No completed GW to fetch extras for — skipping")
 
