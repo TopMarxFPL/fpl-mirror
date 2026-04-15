@@ -274,6 +274,17 @@ gw,31,8,299,440993,Iliman Ndiaye,MID,10,False
 gw,31,9,485,232826,Anthony Gordon,MID,10,False
 gw,31,10,311,486385,Beto,FWD,16,True
 gw,31,11,178,50175,Danny Welbeck,FWD,12,False
+gw,32,1,670,498016,Robin Roefs,GK,11,False
+gw,32,2,606,233963,Konstantinos Mavropanos,DEF,21,True
+gw,32,3,260,209036,Marc Guéhi,DEF,15,False
+gw,32,4,411,472769,Nico O'Reilly,DEF,14,False
+gw,32,5,694,200834,Nordi Mukiele,DEF,14,False
+gw,32,6,173,467779,Mats Wieffer,MID,18,False
+gw,32,7,698,435997,Noah Okafor,MID,15,False
+gw,32,8,90,503139,Alex Scott,MID,12,False
+gw,32,9,624,178186,Jarrod Bowen,FWD,14,False
+gw,32,10,136,502500,Igor Thiago,FWD,13,False
+gw,32,11,283,231747,Jean-Philippe Mateta,FWD,12,False
 gw,4,1,670,498016,Robin Roefs,GK,10,False
 gw,4,2,575,491279,Micky van de Ven,DEF,14,False
 gw,4,3,569,221632,Cristian Romero,DEF,12,False
@@ -344,7 +355,7 @@ season,,1,1,154561,David Raya Martín,GK,130,False
 season,,2,5,226597,Gabriel Magalhães,DEF,177,False
 season,,3,260,209036,Marc Guéhi,DEF,150,False
 season,,4,8,445122,Jurriën Timber,DEF,149,False
-season,,5,449,141746,Bruno Fernandes,MID,189,False
+season,,5,449,141746,Bruno Fernandes,MID,193,False
 season,,6,82,437730,Antoine Semenyo,MID,176,False
 season,,7,21,204480,Declan Rice,MID,167,False
 season,,8,329,153682,Harry Wilson,MID,154,False

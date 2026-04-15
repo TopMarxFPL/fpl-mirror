@@ -4636,7 +4636,7 @@
         ]
       }
     ],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 3,
     "pulse_id": 124802
   },
@@ -12961,7 +12961,7 @@
         ]
       }
     ],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 3,
     "pulse_id": 124829
   },
@@ -20743,7 +20743,7 @@
         ]
       }
     ],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 2,
     "pulse_id": 124850
   },
@@ -27734,7 +27734,7 @@
         ]
       }
     ],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 3,
     "pulse_id": 124868
   },
@@ -34328,7 +34328,7 @@
         ]
       }
     ],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 3,
     "pulse_id": 124884
   },
@@ -38275,7 +38275,7 @@
         ]
       }
     ],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 3,
     "pulse_id": 124893
   },
@@ -46415,7 +46415,7 @@
         ]
       }
     ],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 4,
     "pulse_id": 124911
   },
@@ -56190,7 +56190,7 @@
         ]
       }
     ],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 5,
     "pulse_id": 124941
   },
@@ -64120,7 +64120,7 @@
         ]
       }
     ],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 4,
     "pulse_id": 124966
   },
@@ -67713,7 +67713,7 @@
         ]
       }
     ],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 4,
     "pulse_id": 124977
   },
@@ -74353,7 +74353,7 @@
         ]
       }
     ],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 3,
     "pulse_id": 124996
   },
@@ -81143,7 +81143,7 @@
         ]
       }
     ],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 5,
     "pulse_id": 125018
   },
@@ -93156,7 +93156,7 @@
         ]
       }
     ],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 3,
     "pulse_id": 125047
   },
@@ -96735,7 +96735,7 @@
         ]
       }
     ],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 3,
     "pulse_id": 125054
   },
@@ -109091,7 +109091,7 @@
         ]
       }
     ],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 3,
     "pulse_id": 125082
   },
@@ -112363,7 +112363,7 @@
         ]
       }
     ],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 2,
     "pulse_id": 125110
   },
@@ -115643,7 +115643,7 @@
     "team_h": 11,
     "team_h_score": null,
     "stats": [],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 3,
     "pulse_id": 125116
   },
@@ -116213,7 +116213,7 @@
     "team_h": 6,
     "team_h_score": null,
     "stats": [],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 4,
     "pulse_id": 125141
   },
@@ -116593,7 +116593,7 @@
     "team_h": 3,
     "team_h_score": null,
     "stats": [],
-    "team_h_difficulty": 2,
+    "team_h_difficulty": 1,
     "team_a_difficulty": 2,
     "pulse_id": 125162
   },

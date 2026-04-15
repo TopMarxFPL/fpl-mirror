@@ -12,7 +12,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 10,2561904,1,11,2,Leeds,LEE,9,11,Everton,EVE,1,0,2025-08-18T19:00:00Z,True,True,3,3
 20,2561914,2,19,21,West Ham,WHU,7,8,Chelsea,CHE,1,5,2025-08-22T19:00:00Z,True,True,3,2
 18,2561912,2,13,43,Man City,MCI,18,6,Spurs,TOT,0,2,2025-08-23T11:30:00Z,True,True,2,5
-12,2561905,2,4,91,Bournemouth,BOU,20,39,Wolves,WOL,1,0,2025-08-23T14:00:00Z,True,True,2,3
+12,2561905,2,4,91,Bournemouth,BOU,20,39,Wolves,WOL,1,0,2025-08-23T14:00:00Z,True,True,1,3
 13,2561907,2,5,94,Brentford,BRE,2,7,Aston Villa,AVL,1,0,2025-08-23T14:00:00Z,True,True,3,3
 14,2561908,2,3,90,Burnley,BUR,17,56,Sunderland,SUN,2,0,2025-08-23T14:00:00Z,True,True,2,2
 11,2561906,2,1,3,Arsenal,ARS,11,2,Leeds,LEE,5,0,2025-08-23T16:30:00Z,True,True,2,5
@@ -35,7 +35,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 35,2561929,4,8,31,Crystal Palace,CRY,17,56,Sunderland,SUN,0,0,2025-09-13T14:00:00Z,True,True,2,3
 36,2561930,4,9,11,Everton,EVE,2,7,Aston Villa,AVL,0,0,2025-09-13T14:00:00Z,True,True,3,3
 37,2561931,4,10,54,Fulham,FUL,11,2,Leeds,LEE,1,0,2025-09-13T14:00:00Z,True,True,2,3
-39,2561933,4,15,4,Newcastle,NEW,20,39,Wolves,WOL,1,0,2025-09-13T14:00:00Z,True,True,2,3
+39,2561933,4,15,4,Newcastle,NEW,20,39,Wolves,WOL,1,0,2025-09-13T14:00:00Z,True,True,1,3
 40,2561934,4,19,21,West Ham,WHU,18,6,Spurs,TOT,0,3,2025-09-13T16:30:00Z,True,True,2,2
 33,2561927,4,5,94,Brentford,BRE,7,8,Chelsea,CHE,2,2,2025-09-13T19:00:00Z,True,True,3,3
 34,2561928,4,3,90,Burnley,BUR,12,14,Liverpool,LIV,0,1,2025-09-14T13:00:00Z,True,True,3,2
@@ -56,7 +56,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 56,2561950,6,11,2,Leeds,LEE,4,91,Bournemouth,BOU,2,2,2025-09-27T14:00:00Z,True,True,3,3
 57,2561951,6,13,43,Man City,MCI,3,90,Burnley,BUR,5,1,2025-09-27T14:00:00Z,True,True,1,5
 59,2561953,6,16,17,Nott'm Forest,NFO,17,56,Sunderland,SUN,0,1,2025-09-27T16:30:00Z,True,True,2,3
-60,2561954,6,18,6,Spurs,TOT,20,39,Wolves,WOL,1,1,2025-09-27T19:00:00Z,True,True,2,2
+60,2561954,6,18,6,Spurs,TOT,20,39,Wolves,WOL,1,1,2025-09-27T19:00:00Z,True,True,1,2
 51,2561945,6,2,7,Aston Villa,AVL,10,54,Fulham,FUL,3,1,2025-09-28T13:00:00Z,True,True,3,4
 58,2561952,6,15,4,Newcastle,NEW,1,3,Arsenal,ARS,1,2,2025-09-28T15:30:00Z,True,True,4,3
 55,2561949,6,9,11,Everton,EVE,19,21,West Ham,WHU,1,1,2025-09-29T19:00:00Z,True,True,2,3
@@ -75,7 +75,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 72,2561966,8,3,90,Burnley,BUR,11,2,Leeds,LEE,2,0,2025-10-18T14:00:00Z,True,True,2,2
 73,2561967,8,8,31,Crystal Palace,CRY,4,91,Bournemouth,BOU,3,3,2025-10-18T14:00:00Z,True,True,3,3
 76,2561970,8,13,43,Man City,MCI,9,11,Everton,EVE,2,0,2025-10-18T14:00:00Z,True,True,3,5
-78,2561972,8,17,56,Sunderland,SUN,20,39,Wolves,WOL,2,0,2025-10-18T14:00:00Z,True,True,2,3
+78,2561972,8,17,56,Sunderland,SUN,20,39,Wolves,WOL,2,0,2025-10-18T14:00:00Z,True,True,1,3
 74,2561968,8,10,54,Fulham,FUL,1,3,Arsenal,ARS,0,1,2025-10-18T16:30:00Z,True,True,4,3
 79,2561973,8,18,6,Spurs,TOT,2,7,Aston Villa,AVL,1,2,2025-10-19T13:00:00Z,True,True,3,2
 75,2561969,8,12,14,Liverpool,LIV,14,1,Man Utd,MUN,1,2,2025-10-19T15:30:00Z,True,True,3,4
@@ -93,7 +93,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 91,2561985,10,6,36,Brighton,BHA,11,2,Leeds,LEE,3,0,2025-11-01T15:00:00Z,True,True,2,4
 92,2561986,10,3,90,Burnley,BUR,1,3,Arsenal,ARS,0,2,2025-11-01T15:00:00Z,True,True,4,2
 93,2561987,10,8,31,Crystal Palace,CRY,5,94,Brentford,BRE,2,0,2025-11-01T15:00:00Z,True,True,3,3
-94,2561988,10,10,54,Fulham,FUL,20,39,Wolves,WOL,3,0,2025-11-01T15:00:00Z,True,True,2,3
+94,2561988,10,10,54,Fulham,FUL,20,39,Wolves,WOL,3,0,2025-11-01T15:00:00Z,True,True,1,3
 97,2561991,10,16,17,Nott'm Forest,NFO,14,1,Man Utd,MUN,2,2,2025-11-01T15:00:00Z,True,True,3,3
 99,2561993,10,18,6,Spurs,TOT,7,8,Chelsea,CHE,0,1,2025-11-01T17:30:00Z,True,True,3,2
 95,2561989,10,12,14,Liverpool,LIV,2,7,Aston Villa,AVL,2,0,2025-11-01T20:00:00Z,True,True,3,4
@@ -104,7 +104,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 105,2561999,11,9,11,Everton,EVE,10,54,Fulham,FUL,2,0,2025-11-08T15:00:00Z,True,True,3,3
 110,2562004,11,19,21,West Ham,WHU,3,90,Burnley,BUR,3,2,2025-11-08T15:00:00Z,True,True,1,2
 108,2562002,11,17,56,Sunderland,SUN,1,3,Arsenal,ARS,2,2,2025-11-08T17:30:00Z,True,True,4,3
-103,2561997,11,7,8,Chelsea,CHE,20,39,Wolves,WOL,3,0,2025-11-08T20:00:00Z,True,True,2,3
+103,2561997,11,7,8,Chelsea,CHE,20,39,Wolves,WOL,3,0,2025-11-08T20:00:00Z,True,True,1,3
 101,2561995,11,2,7,Aston Villa,AVL,4,91,Bournemouth,BOU,4,0,2025-11-09T14:00:00Z,True,True,3,4
 102,2561996,11,5,94,Brentford,BRE,15,4,Newcastle,NEW,3,1,2025-11-09T14:00:00Z,True,True,3,3
 104,2561998,11,8,31,Crystal Palace,CRY,6,36,Brighton,BHA,0,0,2025-11-09T14:00:00Z,True,True,3,3
@@ -126,7 +126,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 125,2562019,13,9,11,Everton,EVE,15,4,Newcastle,NEW,1,4,2025-11-29T17:30:00Z,True,True,3,3
 129,2562023,13,18,6,Spurs,TOT,10,54,Fulham,FUL,1,2,2025-11-29T20:00:00Z,True,True,3,2
 124,2562018,13,8,31,Crystal Palace,CRY,14,1,Man Utd,MUN,1,2,2025-11-30T12:00:00Z,True,True,3,3
-121,2562015,13,2,7,Aston Villa,AVL,20,39,Wolves,WOL,1,0,2025-11-30T14:05:00Z,True,True,2,4
+121,2562015,13,2,7,Aston Villa,AVL,20,39,Wolves,WOL,1,0,2025-11-30T14:05:00Z,True,True,1,4
 127,2562021,13,16,17,Nott'm Forest,NFO,6,36,Brighton,BHA,0,2,2025-11-30T14:05:00Z,True,True,3,3
 130,2562024,13,19,21,West Ham,WHU,12,14,Liverpool,LIV,0,2,2025-11-30T14:05:00Z,True,True,3,2
 123,2562017,13,7,8,Chelsea,CHE,1,3,Arsenal,ARS,1,1,2025-11-30T16:30:00Z,True,True,4,3
@@ -153,7 +153,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 154,2562048,16,7,8,Chelsea,CHE,9,11,Everton,EVE,2,0,2025-12-13T15:00:00Z,True,True,3,3
 156,2562050,16,12,14,Liverpool,LIV,6,36,Brighton,BHA,2,0,2025-12-13T15:00:00Z,True,True,3,4
 153,2562047,16,3,90,Burnley,BUR,10,54,Fulham,FUL,2,3,2025-12-13T17:30:00Z,True,True,3,2
-151,2562045,16,1,3,Arsenal,ARS,20,39,Wolves,WOL,2,1,2025-12-13T20:00:00Z,True,True,2,5
+151,2562045,16,1,3,Arsenal,ARS,20,39,Wolves,WOL,2,1,2025-12-13T20:00:00Z,True,True,1,5
 155,2562049,16,8,31,Crystal Palace,CRY,13,43,Man City,MCI,0,3,2025-12-14T14:00:00Z,True,True,4,3
 158,2562052,16,16,17,Nott'm Forest,NFO,18,6,Spurs,TOT,3,0,2025-12-14T14:00:00Z,True,True,2,3
 159,2562053,16,17,56,Sunderland,SUN,15,4,Newcastle,NEW,1,0,2025-12-14T14:00:00Z,True,True,3,3
@@ -175,7 +175,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 171,2562065,18,1,3,Arsenal,ARS,6,36,Brighton,BHA,2,1,2025-12-27T15:00:00Z,True,True,3,5
 172,2562066,18,5,94,Brentford,BRE,4,91,Bournemouth,BOU,4,1,2025-12-27T15:00:00Z,True,True,3,3
 173,2562067,18,3,90,Burnley,BUR,9,11,Everton,EVE,0,0,2025-12-27T15:00:00Z,True,True,3,2
-176,2562070,18,12,14,Liverpool,LIV,20,39,Wolves,WOL,2,1,2025-12-27T15:00:00Z,True,True,2,4
+176,2562070,18,12,14,Liverpool,LIV,20,39,Wolves,WOL,2,1,2025-12-27T15:00:00Z,True,True,1,4
 180,2562074,18,19,21,West Ham,WHU,10,54,Fulham,FUL,0,1,2025-12-27T15:00:00Z,True,True,3,2
 174,2562068,18,7,8,Chelsea,CHE,2,7,Aston Villa,AVL,1,2,2025-12-27T17:30:00Z,True,True,3,3
 179,2562073,18,17,56,Sunderland,SUN,11,2,Leeds,LEE,1,1,2025-12-28T14:00:00Z,True,True,2,3
@@ -185,7 +185,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 188,2562082,19,16,17,Nott'm Forest,NFO,9,11,Everton,EVE,0,2,2025-12-30T19:30:00Z,True,True,3,3
 190,2562084,19,19,21,West Ham,WHU,6,36,Brighton,BHA,2,2,2025-12-30T19:30:00Z,True,True,3,2
 181,2562075,19,1,3,Arsenal,ARS,2,7,Aston Villa,AVL,4,1,2025-12-30T20:15:00Z,True,True,3,5
-187,2562081,19,14,1,Man Utd,MUN,20,39,Wolves,WOL,1,1,2025-12-30T20:15:00Z,True,True,2,4
+187,2562081,19,14,1,Man Utd,MUN,20,39,Wolves,WOL,1,1,2025-12-30T20:15:00Z,True,True,1,4
 185,2562079,19,8,31,Crystal Palace,CRY,10,54,Fulham,FUL,1,1,2026-01-01T17:30:00Z,True,True,3,3
 186,2562080,19,12,14,Liverpool,LIV,11,2,Leeds,LEE,0,0,2026-01-01T17:30:00Z,True,True,2,4
 182,2562076,19,5,94,Brentford,BRE,18,6,Spurs,TOT,0,0,2026-01-01T20:00:00Z,True,True,2,3
@@ -204,7 +204,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 202,2562095,21,4,91,Bournemouth,BOU,18,6,Spurs,TOT,3,2,2026-01-07T19:30:00Z,True,True,2,3
 203,2562097,21,5,94,Brentford,BRE,17,56,Sunderland,SUN,3,0,2026-01-07T19:30:00Z,True,True,2,3
 205,2562099,21,8,31,Crystal Palace,CRY,2,7,Aston Villa,AVL,0,0,2026-01-07T19:30:00Z,True,True,3,3
-206,2562100,21,9,11,Everton,EVE,20,39,Wolves,WOL,1,1,2026-01-07T19:30:00Z,True,True,2,3
+206,2562100,21,9,11,Everton,EVE,20,39,Wolves,WOL,1,1,2026-01-07T19:30:00Z,True,True,1,3
 207,2562101,21,10,54,Fulham,FUL,7,8,Chelsea,CHE,2,1,2026-01-07T19:30:00Z,True,True,3,3
 208,2562102,21,13,43,Man City,MCI,6,36,Brighton,BHA,1,1,2026-01-07T19:30:00Z,True,True,3,5
 204,2562098,21,3,90,Burnley,BUR,14,1,Man Utd,MUN,2,2,2026-01-07T20:15:00Z,True,True,3,2
@@ -223,7 +223,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 230,2562124,23,19,21,West Ham,WHU,17,56,Sunderland,SUN,3,1,2026-01-24T12:30:00Z,True,True,2,2
 224,2562118,23,3,90,Burnley,BUR,18,6,Spurs,TOT,2,2,2026-01-24T15:00:00Z,True,True,2,2
 227,2562121,23,10,54,Fulham,FUL,6,36,Brighton,BHA,2,1,2026-01-24T15:00:00Z,True,True,3,3
-228,2562122,23,13,43,Man City,MCI,20,39,Wolves,WOL,2,0,2026-01-24T15:00:00Z,True,True,2,5
+228,2562122,23,13,43,Man City,MCI,20,39,Wolves,WOL,2,0,2026-01-24T15:00:00Z,True,True,1,5
 222,2562115,23,4,91,Bournemouth,BOU,12,14,Liverpool,LIV,3,2,2026-01-24T17:30:00Z,True,True,3,3
 223,2562117,23,5,94,Brentford,BRE,16,17,Nott'm Forest,NFO,0,2,2026-01-25T14:00:00Z,True,True,2,3
 225,2562119,23,8,31,Crystal Palace,CRY,7,8,Chelsea,CHE,1,3,2026-01-25T14:00:00Z,True,True,3,3
@@ -256,7 +256,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 260,2562154,26,19,21,West Ham,WHU,14,1,Man Utd,MUN,1,1,2026-02-10T20:15:00Z,True,True,3,2
 251,2562145,26,2,7,Aston Villa,AVL,6,36,Brighton,BHA,1,0,2026-02-11T19:30:00Z,True,True,3,4
 256,2562150,26,13,43,Man City,MCI,10,54,Fulham,FUL,3,0,2026-02-11T19:30:00Z,True,True,3,5
-257,2562151,26,16,17,Nott'm Forest,NFO,20,39,Wolves,WOL,0,0,2026-02-11T19:30:00Z,True,True,2,3
+257,2562151,26,16,17,Nott'm Forest,NFO,20,39,Wolves,WOL,0,0,2026-02-11T19:30:00Z,True,True,1,3
 254,2562148,26,8,31,Crystal Palace,CRY,3,90,Burnley,BUR,2,3,2026-02-11T19:40:00Z,True,True,1,3
 258,2562152,26,17,56,Sunderland,SUN,12,14,Liverpool,LIV,0,1,2026-02-11T20:15:00Z,True,True,3,3
 252,2562146,26,5,94,Brentford,BRE,1,3,Arsenal,ARS,1,1,2026-02-12T20:00:00Z,True,True,4,3
@@ -266,7 +266,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 263,2562157,27,7,8,Chelsea,CHE,3,90,Burnley,BUR,1,1,2026-02-21T15:00:00Z,True,True,1,3
 270,2562164,27,19,21,West Ham,WHU,4,91,Bournemouth,BOU,0,0,2026-02-21T17:30:00Z,True,True,3,2
 266,2562160,27,13,43,Man City,MCI,15,4,Newcastle,NEW,2,1,2026-02-21T20:00:00Z,True,True,3,5
-264,2562158,27,8,31,Crystal Palace,CRY,20,39,Wolves,WOL,1,0,2026-02-22T14:00:00Z,True,True,2,3
+264,2562158,27,8,31,Crystal Palace,CRY,20,39,Wolves,WOL,1,0,2026-02-22T14:00:00Z,True,True,1,3
 267,2562161,27,16,17,Nott'm Forest,NFO,12,14,Liverpool,LIV,0,1,2026-02-22T14:00:00Z,True,True,3,3
 268,2562162,27,17,56,Sunderland,SUN,10,54,Fulham,FUL,1,3,2026-02-22T14:00:00Z,True,True,3,3
 269,2562163,27,18,6,Spurs,TOT,1,3,Arsenal,ARS,1,4,2026-02-22T16:30:00Z,True,True,4,2
@@ -300,7 +300,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 297,2562191,30,14,1,Man Utd,MUN,2,7,Aston Villa,AVL,3,1,2026-03-15T14:00:00Z,True,True,3,4
 298,2562192,30,16,17,Nott'm Forest,NFO,10,54,Fulham,FUL,0,0,2026-03-15T14:00:00Z,True,True,3,3
 296,2562190,30,12,14,Liverpool,LIV,18,6,Spurs,TOT,1,1,2026-03-15T16:30:00Z,True,True,2,4
-292,2562186,30,5,94,Brentford,BRE,20,39,Wolves,WOL,2,2,2026-03-16T20:00:00Z,True,True,2,3
+292,2562186,30,5,94,Brentford,BRE,20,39,Wolves,WOL,2,2,2026-03-16T20:00:00Z,True,True,1,3
 302,2562195,31,4,91,Bournemouth,BOU,14,1,Man Utd,MUN,2,2,2026-03-20T20:00:00Z,True,True,3,3
 303,2562197,31,6,36,Brighton,BHA,12,14,Liverpool,LIV,2,1,2026-03-21T12:45:00Z,True,True,3,4
 305,2562199,31,10,54,Fulham,FUL,3,90,Burnley,BUR,3,1,2026-03-21T15:00:00Z,True,True,1,3
@@ -309,7 +309,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 308,2562202,31,15,4,Newcastle,NEW,17,56,Sunderland,SUN,1,2,2026-03-22T12:00:00Z,True,True,2,3
 301,2562196,31,2,7,Aston Villa,AVL,19,21,West Ham,WHU,2,0,2026-03-22T14:15:00Z,True,True,2,4
 309,2562203,31,18,6,Spurs,TOT,16,17,Nott'm Forest,NFO,0,3,2026-03-22T14:15:00Z,True,True,2,2
-320,2562214,32,19,21,West Ham,WHU,20,39,Wolves,WOL,4,0,2026-04-10T19:00:00Z,True,True,2,2
+320,2562214,32,19,21,West Ham,WHU,20,39,Wolves,WOL,4,0,2026-04-10T19:00:00Z,True,True,1,2
 311,2562205,32,1,3,Arsenal,ARS,4,91,Bournemouth,BOU,1,2,2026-04-11T11:30:00Z,True,True,3,5
 312,2562206,32,5,94,Brentford,BRE,9,11,Everton,EVE,2,2,2026-04-11T14:00:00Z,True,True,3,3
 313,2562207,32,3,90,Burnley,BUR,6,36,Brighton,BHA,0,2,2026-04-11T14:00:00Z,True,True,3,2
@@ -320,7 +320,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 314,2562208,32,7,8,Chelsea,CHE,13,43,Man City,MCI,0,3,2026-04-12T15:30:00Z,True,True,4,3
 317,2562211,32,14,1,Man Utd,MUN,11,2,Leeds,LEE,1,2,2026-04-13T19:00:00Z,True,True,2,4
 322,2562216,33,5,94,Brentford,BRE,10,54,Fulham,FUL,,,2026-04-18T11:30:00Z,False,False,3,3
-326,2562220,33,11,2,Leeds,LEE,20,39,Wolves,WOL,,,2026-04-18T14:00:00Z,False,False,2,3
+326,2562220,33,11,2,Leeds,LEE,20,39,Wolves,WOL,,,2026-04-18T14:00:00Z,False,False,1,3
 328,2562222,33,15,4,Newcastle,NEW,4,91,Bournemouth,BOU,,,2026-04-18T14:00:00Z,False,False,3,3
 330,2562224,33,18,6,Spurs,TOT,6,36,Brighton,BHA,,,2026-04-18T16:30:00Z,False,False,3,2
 323,2562217,33,7,8,Chelsea,CHE,14,1,Man Utd,MUN,,,2026-04-18T19:00:00Z,False,False,3,3
@@ -350,7 +350,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 345,2562239,35,7,8,Chelsea,CHE,16,17,Nott'm Forest,NFO,,,2026-05-04T14:00:00Z,False,False,2,3
 346,2562240,35,9,11,Everton,EVE,13,43,Man City,MCI,,,2026-05-04T19:00:00Z,False,False,4,3
 355,2562249,36,12,14,Liverpool,LIV,7,8,Chelsea,CHE,,,2026-05-09T11:30:00Z,False,False,3,4
-351,2562245,36,6,36,Brighton,BHA,20,39,Wolves,WOL,,,2026-05-09T14:00:00Z,False,False,2,4
+351,2562245,36,6,36,Brighton,BHA,20,39,Wolves,WOL,,,2026-05-09T14:00:00Z,False,False,1,4
 352,2562246,36,3,90,Burnley,BUR,2,7,Aston Villa,AVL,,,2026-05-09T14:00:00Z,False,False,3,2
 353,2562247,36,8,31,Crystal Palace,CRY,9,11,Everton,EVE,,,2026-05-09T14:00:00Z,False,False,3,3
 354,2562248,36,10,54,Fulham,FUL,4,91,Bournemouth,BOU,,,2026-05-09T14:00:00Z,False,False,3,3
@@ -370,7 +370,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 369,2562263,37,15,4,Newcastle,NEW,19,21,West Ham,WHU,,,2026-05-17T14:00:00Z,False,False,2,3
 370,2562264,37,20,39,Wolves,WOL,10,54,Fulham,FUL,,,2026-05-17T14:00:00Z,False,False,3,2
 371,2562265,38,6,36,Brighton,BHA,14,1,Man Utd,MUN,,,2026-05-24T15:00:00Z,False,False,3,4
-372,2562266,38,3,90,Burnley,BUR,20,39,Wolves,WOL,,,2026-05-24T15:00:00Z,False,False,2,2
+372,2562266,38,3,90,Burnley,BUR,20,39,Wolves,WOL,,,2026-05-24T15:00:00Z,False,False,1,2
 373,2562267,38,8,31,Crystal Palace,CRY,1,3,Arsenal,ARS,,,2026-05-24T15:00:00Z,False,False,4,3
 374,2562268,38,10,54,Fulham,FUL,15,4,Newcastle,NEW,,,2026-05-24T15:00:00Z,False,False,3,3
 375,2562269,38,12,14,Liverpool,LIV,5,94,Brentford,BRE,,,2026-05-24T15:00:00Z,False,False,3,4
