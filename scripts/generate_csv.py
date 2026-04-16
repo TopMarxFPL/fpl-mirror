@@ -399,8 +399,6 @@ def generate_player_csvs(players_dir: Path, team_lookup: dict, csv_dir: Path) ->
 
     history_dir = csv_dir / "players" / "history"
     history_past_dir = csv_dir / "players" / "history_past"
-    history_dir.mkdir(parents=True, exist_ok=True)
-    history_past_dir.mkdir(parents=True, exist_ok=True)
 
     history_fieldnames = [
         "fpl_id", "fixture_fpl_id", "gameweek", "kickoff_time", "was_home",
