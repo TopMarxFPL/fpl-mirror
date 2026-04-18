@@ -48,6 +48,7 @@ without needing to know the current season year:
 | `latest/fpl-fixtures.json` | Current fixtures |
 | `latest/players-{team_opta_id}.json` | Per-team player histories (one file per team) |
 | `latest/fetch-manifest.json` | Fetch metadata and completion status |
+| `latest/players-history-past.json` | Previous-season summaries per player (regenerated on GW closure) |
 
 ---
 
@@ -229,6 +230,7 @@ git clone --depth 1 https://github.com/TopMarx/fpl.git
 │   ├── fpl-bootstrap.json
 │   ├── fpl-fixtures.json
 │   ├── players-{team_opta_id}.json
+│   ├── players-history-past.json
 │   └── fetch-manifest.json
 │
 ├── scripts/
