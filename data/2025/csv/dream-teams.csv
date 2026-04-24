@@ -285,6 +285,17 @@ gw,32,8,90,503139,Alex Scott,MID,12,False
 gw,32,9,624,178186,Jarrod Bowen,FWD,14,False
 gw,32,10,136,502500,Igor Thiago,FWD,13,False
 gw,32,11,283,231747,Jean-Philippe Mateta,FWD,12,False
+gw,33,1,314,80201,Bernd Leno,GK,10,False
+gw,33,2,706,220627,James Justin,DEF,19,False
+gw,33,3,148,231416,Ferdi Kadıoğlu,DEF,16,False
+gw,33,4,406,578153,Abdukodir Khusanov,DEF,15,False
+gw,33,5,411,472769,Nico O'Reilly,DEF,13,False
+gw,33,6,515,222531,Morgan Gibbs-White,MID,20,True
+gw,33,7,783,60307,Pascal Groß,MID,16,False
+gw,33,8,698,435997,Noah Okafor,MID,16,False
+gw,33,9,417,466052,Rayan Cherki,MID,13,False
+gw,33,10,64,178301,Ollie Watkins,FWD,16,False
+gw,33,11,430,223094,Erling Haaland,FWD,13,False
 gw,4,1,670,498016,Robin Roefs,GK,10,False
 gw,4,2,575,491279,Micky van de Ven,DEF,14,False
 gw,4,3,569,221632,Cristian Romero,DEF,12,False
@@ -351,14 +362,14 @@ gw,9,8,350,427637,Brenden Aaronson,MID,11,False
 gw,9,9,84,201658,Marcus Tavernier,MID,11,False
 gw,9,10,266,232413,Eberechi Eze,MID,11,False
 gw,9,11,215,431639,Zian Flemming,FWD,13,False
-season,,1,1,154561,David Raya Martín,GK,130,False
+season,,1,1,154561,David Raya Martín,GK,131,False
 season,,2,5,226597,Gabriel Magalhães,DEF,177,False
-season,,3,260,209036,Marc Guéhi,DEF,150,False
-season,,4,8,445122,Jurriën Timber,DEF,149,False
-season,,5,449,141746,Bruno Fernandes,MID,193,False
-season,,6,82,437730,Antoine Semenyo,MID,176,False
-season,,7,21,204480,Declan Rice,MID,167,False
-season,,8,329,153682,Harry Wilson,MID,154,False
-season,,9,430,223094,Erling Haaland,FWD,199,True
-season,,10,249,475168,João Pedro,FWD,166,False
-season,,11,136,502500,Igor Thiago,FWD,166,False
+season,,3,260,209036,Marc Guéhi,DEF,158,False
+season,,4,411,472769,Nico O'Reilly,DEF,152,False
+season,,5,449,141746,Bruno Fernandes,MID,199,False
+season,,6,82,437730,Antoine Semenyo,MID,181,False
+season,,7,21,204480,Declan Rice,MID,169,False
+season,,8,329,153682,Harry Wilson,MID,157,False
+season,,9,430,223094,Erling Haaland,FWD,212,True
+season,,10,136,502500,Igor Thiago,FWD,168,False
+season,,11,249,475168,João Pedro,FWD,166,False
