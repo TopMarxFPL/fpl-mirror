@@ -332,7 +332,7 @@ fpl_id,opta_id,gameweek,team_h_fpl_id,team_h_opta_id,team_h_name,team_h_short_na
 333,2562227,33,6,36,Brighton,BHA,7,8,Chelsea,CHE,3,0,2026-04-21T19:00:00Z,True,True,3,4
 332,2562225,33,4,91,Bournemouth,BOU,11,2,Leeds,LEE,2,2,2026-04-22T19:00:00Z,True,True,2,3
 334,2562228,33,3,90,Burnley,BUR,13,43,Man City,MCI,0,1,2026-04-22T19:00:00Z,True,True,4,2
-338,2562232,34,17,56,Sunderland,SUN,16,17,Nott'm Forest,NFO,,,2026-04-24T19:00:00Z,False,False,2,3
+338,2562232,34,17,56,Sunderland,SUN,16,17,Nott'm Forest,NFO,0,5,2026-04-24T19:00:00Z,True,True,2,3
 335,2562229,34,10,54,Fulham,FUL,2,7,Aston Villa,AVL,,,2026-04-25T11:30:00Z,False,False,3,3
 336,2562230,34,12,14,Liverpool,LIV,8,31,Crystal Palace,CRY,,,2026-04-25T14:00:00Z,False,False,3,4
 339,2562233,34,19,21,West Ham,WHU,9,11,Everton,EVE,,,2026-04-25T14:00:00Z,False,False,3,2
