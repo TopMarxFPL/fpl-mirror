@@ -30,7 +30,7 @@
       "kickoff_time": "2026-05-10T15:30:00Z",
       "event_name": "Gameweek 36",
       "is_home": false,
-      "difficulty": 2
+      "difficulty": 3
     },
     {
       "id": 361,
@@ -1377,10 +1377,10 @@
       "saves": 0,
       "bonus": 2,
       "bps": 29,
-      "influence": "13.6",
-      "creativity": "0.6",
-      "threat": "0.0",
-      "ict_index": "1.4",
+      "influence": "27.2",
+      "creativity": "14.5",
+      "threat": "2.0",
+      "ict_index": "4.4",
       "clearances_blocks_interceptions": 8,
       "recoveries": 2,
       "tackles": 1,

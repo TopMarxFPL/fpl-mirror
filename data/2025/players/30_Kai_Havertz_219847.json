@@ -30,7 +30,7 @@
       "kickoff_time": "2026-05-10T15:30:00Z",
       "event_name": "Gameweek 36",
       "is_home": false,
-      "difficulty": 2
+      "difficulty": 3
     },
     {
       "id": 361,
@@ -1382,9 +1382,9 @@
       "threat": "4.0",
       "ict_index": "3.3",
       "clearances_blocks_interceptions": 1,
-      "recoveries": 1,
+      "recoveries": 0,
       "tackles": 0,
-      "defensive_contribution": 2,
+      "defensive_contribution": 1,
       "starts": 1,
       "value": 73,
       "transfers_balance": 47688,

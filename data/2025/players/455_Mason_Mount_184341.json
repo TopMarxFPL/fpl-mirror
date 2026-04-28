@@ -1,22 +1,6 @@
 {
   "fixtures": [
     {
-      "id": 337,
-      "code": 2562231,
-      "team_h": 14,
-      "team_h_score": null,
-      "team_a": 5,
-      "team_a_score": null,
-      "event": 34,
-      "finished": false,
-      "minutes": 0,
-      "provisional_start_time": false,
-      "kickoff_time": "2026-04-27T19:00:00Z",
-      "event_name": "Gameweek 34",
-      "is_home": true,
-      "difficulty": 3
-    },
-    {
       "id": 348,
       "code": 2562242,
       "team_h": 14,
@@ -62,7 +46,7 @@
       "kickoff_time": "2026-05-17T14:00:00Z",
       "event_name": "Gameweek 37",
       "is_home": true,
-      "difficulty": 2
+      "difficulty": 3
     },
     {
       "id": 371,
@@ -1368,6 +1352,45 @@
       "selected": 36220,
       "transfers_in": 116,
       "transfers_out": 204
+    },
+    {
+      "element": 455,
+      "fixture": 337,
+      "opponent_team": 5,
+      "total_points": 1,
+      "was_home": true,
+      "kickoff_time": "2026-04-27T19:00:00Z",
+      "team_h_score": 2,
+      "team_a_score": 1,
+      "round": 34,
+      "modified": false,
+      "minutes": 16,
+      "goals_scored": 0,
+      "assists": 0,
+      "clean_sheets": 0,
+      "goals_conceded": 1,
+      "own_goals": 0,
+      "penalties_saved": 0,
+      "penalties_missed": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 0,
+      "bonus": 0,
+      "bps": 3,
+      "influence": "3.4",
+      "creativity": "1.3",
+      "threat": "0.0",
+      "ict_index": "0.5",
+      "clearances_blocks_interceptions": 2,
+      "recoveries": 1,
+      "tackles": 1,
+      "defensive_contribution": 4,
+      "starts": 0,
+      "value": 59,
+      "transfers_balance": -15,
+      "selected": 36322,
+      "transfers_in": 162,
+      "transfers_out": 177
     }
   ],
   "history_past": [

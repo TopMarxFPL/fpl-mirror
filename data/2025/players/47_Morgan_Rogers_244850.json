@@ -14,7 +14,7 @@
       "kickoff_time": "2026-05-03T18:00:00Z",
       "event_name": "Gameweek 35",
       "is_home": true,
-      "difficulty": 2
+      "difficulty": 3
     },
     {
       "id": 352,
@@ -1378,9 +1378,9 @@
       "bonus": 0,
       "bps": -2,
       "influence": "0.0",
-      "creativity": "5.5",
+      "creativity": "6.6",
       "threat": "18.0",
-      "ict_index": "2.1",
+      "ict_index": "2.2",
       "clearances_blocks_interceptions": 0,
       "recoveries": 1,
       "tackles": 1,
