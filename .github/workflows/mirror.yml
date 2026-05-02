@@ -1,0 +1,30 @@
+name: Mirror from Source
+on:
+  schedule:
+    - cron: '25 4 * * *'
+  workflow_dispatch:
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: TopMarx/fpl
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Push mirror
+        run: |
+          git config user.email "mirror@github.com"
+          git config user.name "Mirror Bot"
+          git rm -r --cached .github
+          git commit -m "Remove .github folder"
+          git remote add backup https://TopMarxFPL:${{ secrets.PAT }}@github.com/TopMarxFPL/fpl-mirror.git
+          git push backup +refs/heads/*:refs/heads/* --force
+          git push backup +refs/tags/*:refs/tags/* --force
+      - name: Recreate mirror workflow
+        run: |
+          curl -s -X PUT \
+            -H "Authorization: token ${{ secrets.PAT }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/TopMarxFPL/fpl-mirror/contents/.github/workflows/mirror.yml \
+            -d "{\"message\":\"Restore mirror workflow\",\"content\":\"${{ vars.WORKFLOW_CONTENT }}\"}"
