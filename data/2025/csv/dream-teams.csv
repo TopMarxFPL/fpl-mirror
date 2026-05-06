@@ -307,6 +307,17 @@ gw,34,8,328,184349,Ryan Sessegnon,MID,11,False
 gw,34,9,613,215439,Tomáš Souček,MID,10,False
 gw,34,10,526,482973,Igor Jesus,FWD,14,True
 gw,34,11,624,178186,Jarrod Bowen,FWD,10,False
+gw,35,1,101,200720,Caoimhín Kelleher,GK,8,False
+gw,35,2,72,221466,Marcos Senesi Barón,DEF,14,False
+gw,35,3,107,249231,Keane Lewis-Potter,DEF,11,False
+gw,35,4,694,200834,Nordi Mukiele,DEF,11,False
+gw,35,5,418,248875,Jérémy Doku,MID,15,False
+gw,35,6,387,424876,Dominik Szoboszlai,MID,13,False
+gw,35,7,16,223340,Bukayo Saka,MID,11,False
+gw,35,8,121,440089,Mikkel Damsgaard,MID,11,False
+gw,35,9,527,210156,Taiwo Awoniyi,FWD,16,True
+gw,35,10,666,224117,Viktor Gyökeres,FWD,16,False
+gw,35,11,310,586309,Thierno Barry,FWD,11,False
 gw,4,1,670,498016,Robin Roefs,GK,10,False
 gw,4,2,575,491279,Micky van de Ven,DEF,14,False
 gw,4,3,569,221632,Cristian Romero,DEF,12,False
@@ -373,14 +384,14 @@ gw,9,8,350,427637,Brenden Aaronson,MID,11,False
 gw,9,9,84,201658,Marcus Tavernier,MID,11,False
 gw,9,10,266,232413,Eberechi Eze,MID,11,False
 gw,9,11,215,431639,Zian Flemming,FWD,13,False
-season,,1,1,154561,David Raya Martín,GK,141,False
-season,,2,5,226597,Gabriel Magalhães,DEF,185,False
-season,,3,260,209036,Marc Guéhi,DEF,158,False
-season,,4,373,97032,Virgil van Dijk,DEF,156,False
-season,,5,449,141746,Bruno Fernandes,MID,204,False
-season,,6,82,437730,Antoine Semenyo,MID,181,False
-season,,7,21,204480,Declan Rice,MID,171,False
-season,,8,515,222531,Morgan Gibbs-White,MID,168,False
-season,,9,430,223094,Erling Haaland,FWD,212,True
-season,,10,136,502500,Igor Thiago,FWD,169,False
-season,,11,624,178186,Jarrod Bowen,FWD,169,False
+season,,1,1,154561,David Raya Martín,GK,147,False
+season,,2,5,226597,Gabriel Magalhães,DEF,191,False
+season,,3,260,209036,Marc Guéhi,DEF,162,False
+season,,4,72,221466,Marcos Senesi Barón,DEF,161,False
+season,,5,449,141746,Bruno Fernandes,MID,209,False
+season,,6,82,437730,Antoine Semenyo,MID,183,False
+season,,7,21,204480,Declan Rice,MID,176,False
+season,,8,515,222531,Morgan Gibbs-White,MID,172,False
+season,,9,430,223094,Erling Haaland,FWD,219,True
+season,,10,136,502500,Igor Thiago,FWD,175,False
+season,,11,249,475168,João Pedro,FWD,174,False
