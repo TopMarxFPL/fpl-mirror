@@ -2927,7 +2927,7 @@
       "pulse_id": 38
     }
   ],
-  "total_players": 13088409,
+  "total_players": 13088421,
   "element_stats": [
     {
       "label": "Minutes played",
@@ -4166,8 +4166,8 @@
       "form_rank_type": 40,
       "points_per_game_rank": 59,
       "points_per_game_rank_type": 24,
-      "selected_rank": 255,
-      "selected_rank_type": 96,
+      "selected_rank": 254,
+      "selected_rank_type": 95,
       "starts_per_90": 1.07,
       "clean_sheets_per_90": 0.67,
       "defensive_contribution_per_90": 7.1
@@ -12390,8 +12390,8 @@
       "form_rank_type": 52,
       "points_per_game_rank": 195,
       "points_per_game_rank_type": 78,
-      "selected_rank": 254,
-      "selected_rank_type": 95,
+      "selected_rank": 255,
+      "selected_rank_type": 96,
       "starts_per_90": 1.04,
       "clean_sheets_per_90": 0.15,
       "defensive_contribution_per_90": 7.55
@@ -37932,7 +37932,7 @@
       "form_rank_type": 74,
       "points_per_game_rank": 176,
       "points_per_game_rank_type": 70,
-      "selected_rank": 317,
+      "selected_rank": 318,
       "selected_rank_type": 116,
       "starts_per_90": 0.93,
       "clean_sheets_per_90": 0.13,
@@ -43179,7 +43179,7 @@
       "form_rank_type": 149,
       "points_per_game_rank": 325,
       "points_per_game_rank_type": 142,
-      "selected_rank": 318,
+      "selected_rank": 317,
       "selected_rank_type": 108,
       "starts_per_90": 1.01,
       "clean_sheets_per_90": 0.0,
@@ -70906,7 +70906,7 @@
       "form_rank_type": 64,
       "points_per_game_rank": 691,
       "points_per_game_rank_type": 74,
-      "selected_rank": 525,
+      "selected_rank": 524,
       "selected_rank_type": 71,
       "starts_per_90": 0,
       "clean_sheets_per_90": 0,
@@ -81796,7 +81796,7 @@
       "form_rank_type": 66,
       "points_per_game_rank": 297,
       "points_per_game_rank_type": 110,
-      "selected_rank": 524,
+      "selected_rank": 525,
       "selected_rank_type": 188,
       "starts_per_90": 0.82,
       "clean_sheets_per_90": 0.12,
